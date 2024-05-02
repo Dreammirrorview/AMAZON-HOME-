@@ -1,0 +1,40 @@
+@import url ('https://fonts.googleapois.com/css2?family=roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #2b18df;
+    /* fallback for old browsers*/
+    background: -webkit-linear-gradient(to right, #3f08d8, #3515c4, #103ccc);
+    /* chrome 10-25, safari 5.1-6 */
+    background: linear-gradient(to right,  #1619d3, #3320e3, #1618b4 );
+    /* W3C, IE 10+/ Edge, Firfox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form {
+    width: 500px;
+    padding: 6px;
+}
+input, 
+textarea {
+    width: 100%;
+    padding: 6px;
+    outline: none;
+    border: none;
+    margin: 6px 0px;
+}
+
+#btn {
+    width: 150px;
+    padding: 6px;
+    cursor: pointer;
+}
